@@ -1,0 +1,127 @@
+#gitIcon{
+  color:rgb(102,43,129);
+}
+
+#linkedIcon{
+  color:rgb(0,127,178);
+}
+.nav-pills{
+  background-color: black;
+  font-size: 1.7em;
+  margin-bottom: 0px;
+}
+
+.block{
+    margin-top:50px;
+  background-color:black;
+  opacity:.7;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:100px;
+}
+.navbar {
+  bottomg-padding: 0px;
+  padding: 0px;
+}
+body{
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.carousel-inner{
+  width:100%;
+  height:100%;
+ 
+}
+.carousel-control{
+  
+}
+h1{
+  padding: 0 px;
+  margin-top: 0;
+  font-size: 5.0em;
+}
+
+.carousel-caption {
+    position: fixed-bottom;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-default{
+  background-color:black;
+  border-color:black;
+  color:#337ab7;
+}
+.btnList{
+  font-family: 'Lobster';
+}
+
+.carousel{
+  margin-bottom: 0px;
+       height:100% !important; 
+     overflow: hidden !important; 
+}
+.pageOne{
+ background:url("https://noahbradley.com/images/Noah-Bradley_Our-Grasp-of-Heaven_highres.jpg");
+ background-size: cover;
+  height:600px; 
+  margin-top:0px;
+    padding-top: 5%;
+}
+
+.transition{
+  background-color: black;
+  background-size: cover;
+  height:50px; 
+}
+.pageTwo{
+   background:url("http://walldiskpaper.com/wp-content/uploads/2014/11/Black-Background-High-Definition.jpg");
+ background-size: cover;
+  height:800px; 
+  padding-top: 5%;
+}
+
+.pageThree{
+   background:url("http://wallpaper-gallery.net/images/purple-space-wallpaper/purple-space-wallpaper-6.jpg");
+ background-size: cover;
+  height:500px; 
+  padding-top: 5%;
+}
+
+.pageFour{
+   background:url("http://wallpaper-gallery.net/images/purple-space-wallpaper/purple-space-wallpaper-6.jpg");
+ background-size: cover;
+  height:800px; 
+  padding-top: 5%;
+}
+
+p{
+  font-size:2.0em;
+}
+
+.me{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}

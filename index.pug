@@ -1,0 +1,88 @@
+header
+  link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" )
+  link(href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet")
+  link(href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet")
+  link(href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet')
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+div(class = "nav navbar-default navbar-fixed-top")
+    ul(class = "nav nav-pills")
+            li
+             a.scrollable(href ='#top') Home
+            li(class = "pull-right")
+             a.scrollable(href ='#p1') Links
+            li(class = "pull-right")
+             a.scrollable(href ='#p3') Portfolio
+            li(class = "pull-right")
+             a.scrollable(href ='#p2') About
+div(id="myCarousel" class="carousel slide" data-ride="carousel" style = "height: 500px" )
+  ol( class= "carousel-indicators")
+    li(data-target="#myCarousel" data-slide-to="0" class="active")
+    li(data-target="#myCarousel" data-slide-to="1" class="active")
+  div(class="carousel-inner")
+    div(class="item active")
+      img(class = "img-responsive center-block" src="https://warroom.securestate.com/wp-content/uploads/2016/10/coding.jpg" style = "width:100%" alt="FrontEnd")
+      div(class = "carousel-caption ")
+          div(class = "block text-center")
+            h1 Front End Solutions
+    div(class="item")
+      img(class = "img-responsive center-block" src="https://open-stand.org/wp-content/uploads/2016/05/Common-Unix-Standards-for-Web-Get-Supported-by-REST-JSON.jpg" alt="BackEnd" style = "width:100% ")
+      div(class = "full-width text-center")
+      div(class = "carousel-caption ")
+         div(class = "block text-center")
+          h1 Back End Development
+  a(class="left carousel-control" href="#myCarousel" data-slide="prev")
+    span(class="glyphicon glyphicon-chevron-left")
+    span(class="sr-only") Previous
+  a(class="right carousel-control" href="#myCarousel" data-slide="next")
+    span(class="glyphicon glyphicon-chevron-right")
+    span(class="sr-only") Next
+div(class = "transition")
+div(class = "pageTwo", id = "p2")
+  div(class = "row")
+  div(class = "col-md-6 text-center")
+    h1 About me
+    p I'm a junior at the University of Buffalo. I taught myself web development at age 11 and began learning Object Oriented Programming at age 14. I'm currently developing a game in Unreal Engine.
+    p Languages: C++, Java, HTML ,CSS, JavaScript
+    p Software: Github, Unity,Unreal Engine, Maya, Blender, ZBrush
+  div(class = "col-md-6")
+    img(src = "https://scontent-lga3-1.xx.fbcdn.net/v/t34.0-0/p280x280/18741118_1413767292004520_422854003_n.jpg?oh=f990e02d2d25690716724403e9c53978&oe=595194A5" class = "me")
+div(class = "transition")
+div(class = "pageThree text-center" id = 'p3')
+ div(class="col-md-12")
+        div(class = "block text-center")
+            h1 My Portfolio
+        div(class="carousel slide" id="myCarousel")
+          div(class="carousel-inner")
+                div(class="item active")
+                  div(class="col-lg-4 col-xs-4 col-md-4 col-sm-4")
+                    p1 Crusades Online
+                    a(href="#")
+                     iframe(width="400" height="200" src="https://www.youtube.com/embed/AZk0ES-kgfc" frameborder="0" allowfullscreen)
+                div(class="item active")
+                  div(class="col-lg-4 col-xs-4 col-md-4 col-sm-4")
+                    p1 Eroica Online
+                    a(href="#")
+                     iframe(width="400" height="200" src="https://www.youtube.com/embed/dbJKHYsIppU" frameborder="0" allowfullscreen)
+                  div(class="item active")
+                  div(class="col-lg-4 col-xs-4 col-md-4 col-sm-4")
+                    p1 Digital Art
+                    a(href="#")
+                     img(height = "200" width = "500" src ="https://i.gyazo.com/5d75beb713871fdc23feb7c6c06c8d0a.jpg")
+                  a(class="left carousel-control" href="#myCarousel" data-slide="prev")(
+                    i class="glyphicon glyphicon-chevron-left" contenteditable="false")
+                  a(class="right carousel-control" href="#myCarousel" data-slide="prev")(
+                    i class="glyphicon glyphicon-chevron-right" contenteditable="false")
+div(class = "transition")
+div(class = "pageOne", id = "p1")        
+  div(class = "block text-center")
+    h1 Yang Xue
+    h3 Veni Vidi Vici
+  div(class = "btnList text-center")
+    a(class = "btn btn-default"  href="https://github.com/yxue5" ) GitHub 
+     i(class="fa fa-github fa-lg" aria-hidden="true" id = "gitIcon") 
+    a(class = "btn btn-default"  href="https://www.linkedin.com/in/yang-xue-697765141/") LinkedIn 
+      i(class="fa fa-linkedin-square fa-lg" aria-hidden="true" id = "linkedIcon") 
+div(class = "transition text-center")
+    p1 Yang Xue (c) 2017
+                     
